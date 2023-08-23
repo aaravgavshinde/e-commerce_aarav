@@ -67,3 +67,52 @@
 .product-add-button:active{
     transform: translateY(1px);
 }
+
+@media screen and (min-width: 731px) and (max-width: 1000px) {
+    .products{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 551px) and (max-width: 730px) {
+    .products{
+        width: 100%;
+    }
+    .product-image{
+        max-width: 200px;
+        min-height: 100px;
+    }
+    .card{
+        margin: 40px 10px;
+    }
+    .product-name{
+        font-size: 20px;
+    }
+    .product-price{
+        font-size: 15px;
+    }
+    .product-add-button{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 550px) {
+    .products{
+        width: 100%;
+    }
+    .product-image{
+        max-width: 200px;
+        min-height: 100px;
+    }
+    .card{
+        margin: 40px 2px;
+        width: 340px;
+    }
+    .product-name{
+        font-size: 20px;
+    }
+    .product-price{
+        font-size: 15px;
+    }
+    .product-add-button{
+        font-size: 15px;
+    }
+}
