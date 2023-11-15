@@ -5,15 +5,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgb(255, 211, 190);
+    background-color: #F5F5F5;
     border-radius: 5px;
 }
 
 .maincard{
     border: 1px solid black;
-    border-radius: 10px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .card{
@@ -29,8 +28,8 @@
 
 .product-image{
     width: 100%;
-    max-width: 300px;
-    min-height: 200px;
+    max-width: 400px;
+    min-height: 250px;
     display: block;
     object-fit: cover;
     margin: 0px auto;
@@ -40,32 +39,92 @@
 
 
 .product-name{
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 10px 0px;
 }
 
 .product-price{
     font-size: 20px;
-    color: rgb(255, 94, 94);
+    color: rgb(20, 20, 20);
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price span{
+    margin-left: 10px;
+    font-weight: 200;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+.product-buttons{
+    display: flex;
+}
+
+.product-buy-button{
+    font-size: 20px;
+    color: #F99417;
+    border: 2px solid #F99417;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin: 5px;
+}
+.product-buy-button:hover{
+    color: #e67f00;
+    border: 2px solid #e67f00;
+    background-color: #F5F5F5;
+}
+.product-buy-button:active{
+    transform: translateY(1px);
 }
 
 .product-add-button{
     font-size: 20px;
-    color: rgb(255, 94, 94);
-    border: 2px solid rgb(255, 94, 94);
+    color: white;
+    border: 2px solid #F99417;
     border-radius: 6px;
     padding: 5px 10px;
     margin-top: 10px;
-    background-color: rgb(255, 211, 190);
+    background-color: #F99417;
     width: 100%;
+    margin: 5px;
 }
 .product-add-button:hover{
     color: white;
-    border: 1px solid rgb(255, 94, 94);
-    background-color: rgb(255, 94, 94);
+    border: 1px solid #e67f00;
+    background-color: #e67f00;
 }
 .product-add-button:active{
     transform: translateY(1px);
+}
+
+.footer-main-box{
+    background-color: #141338;
+    display: grid;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-main-box button{
+    background-color: #F99417;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.footer-main-box button:hover{
+    background-color: #e67f00;
+}
+
+.footer-main-box div{
+    padding: 30px 0px;
+    color: white;
 }
 
 @media screen and (min-width: 731px) and (max-width: 1000px) {

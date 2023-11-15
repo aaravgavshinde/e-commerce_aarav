@@ -48,8 +48,8 @@ function App() {
   return (
     <div>
       <Router>
-        <Header cartItems={cartItems}/>
-        <MyRoutes productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} cartClear={cartClear} priceTotal={priceTotal} setPriceTotal={setPriceTotal}/>
+        <Header cartItems={cartItems} />
+        <MyRoutes productItems={productItems} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} cartClear={cartClear} priceTotal={priceTotal} setPriceTotal={setPriceTotal} />
       </Router>
     </div>
   );

@@ -7,8 +7,8 @@ header{
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    background-color: black;
-    width: 80%;
+    background-color: #363062;
+    width: 100%;
 }
 
 .logo{
@@ -16,6 +16,8 @@ header{
     text-transform: uppercase;
     color: white;
     padding-left: 40px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header-links{
@@ -25,7 +27,7 @@ header{
 .header-links ul li{
     list-style: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .header-links ul li a {
